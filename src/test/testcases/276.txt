@@ -1,0 +1,13 @@
+Function: main
+        Parameter: x
+        Body:
+                Return a+b+c==2;
+                Do
+                Continue;
+                If (a==2) Then
+                Return;
+                Break;
+                EndIf.
+                While (True)
+                EndDo.
+        EndBody.

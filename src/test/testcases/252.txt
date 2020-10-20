@@ -1,0 +1,7 @@
+Function: main
+        Parameter: x
+        Body:   Do
+                writeln(i);
+                While (True)
+                EndDo.
+        EndBody.

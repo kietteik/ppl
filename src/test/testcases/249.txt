@@ -1,0 +1,17 @@
+Function: main
+        Parameter: x
+        Body:   While ((b>=a)==(b!=c)+d*a*b*c) Do
+                For (i = 0, i < 10, 2) Do
+                writeln(i);
+                While ((b>=a)==(b!=c)+d*a*b) Do
+                writeln(i);
+                While ((b>=a)==(b!=c)+d*a) Do
+                writeln(i);
+                foo(a==1);
+                EndWhile.
+                writeln(i);
+                EndFor.
+                EndWhile.
+                writeln(i);
+                EndWhile.
+        EndBody.

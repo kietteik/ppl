@@ -1,0 +1,16 @@
+
+        **Declare variable**Var: he = "hello";
+        Var: b = 5, c = False;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var:a=1;
+        **Declare variable**
+        Function: main
+        Parameter: x
+        Body:   a="string string \n \t *commetn****unclosing comment";
+                b=foo();
+                c[1]=foo(foo());
+                **comment insidefuntion**
+                **comment insidefuntion****comment insidefuntion**
+        EndBody.
+        

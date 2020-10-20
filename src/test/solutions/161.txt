@@ -1,0 +1,1 @@
+While,identifiers,Do,EndWhile,.,<EOF>

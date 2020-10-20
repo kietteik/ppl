@@ -1,0 +1,14 @@
+Function: abctest
+        Parameter: a[2],b[5][6]
+        Body:
+            Var:b;
+            Function: funcinsidefunc
+            Body:
+            EndBody.
+            If n > 10 Then
+                Return 5;
+            ElseIf n >5 Then a=a+1; Return a;
+            Else
+                Return False;
+            EndIf.
+        EndBody.

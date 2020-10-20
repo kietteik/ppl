@@ -1,0 +1,4 @@
+Function: main
+        Parameter: x
+        Body:   fooo("this is a string param",funct("string",12));
+        EndBody.

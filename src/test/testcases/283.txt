@@ -1,0 +1,18 @@
+**Declare variable**Var: he = "hello";
+        Var: b = 5, c = False;
+        **Declare variable**
+        Function: main
+        Parameter: x
+        Body:   Do
+                Break;
+                While (True)
+                EndDo.
+        EndBody.
+        **Program over "over" foo dec**
+        Function: foo
+        Parameter: x
+        Body:   Do
+                Break;
+                While (True)
+                EndDo.
+        EndBody.

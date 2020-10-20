@@ -1,0 +1,15 @@
+Function: main
+        Parameter: x
+        Body:   While ((b>=a)==(b!=c)+d*a*b*c) Do
+                writeln(i);
+                If (a==2) Then
+                Break;
+                EndIf.
+                While ((b>=a)==(b!=c)+d*a*b*c) Do
+                writeln(i);
+                EndWhile.
+                While ((b>=a)==(b!=c)+d*a*b*c) Do
+                writeln(i);
+                EndWhile.
+                EndWhile.
+        EndBody.

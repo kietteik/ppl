@@ -1,0 +1,15 @@
+Function: main
+        Parameter: x
+        Body:   Do
+                writeln(i);
+                Do
+                    writeln(i);
+                While (a==12+3)
+                EndDo.
+                Do
+                    writeln(i);
+                While (a==12+3)
+                EndDo.
+                While (True)
+                EndDo.
+        EndBody.

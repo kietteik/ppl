@@ -1,0 +1,17 @@
+Function: main
+        Parameter: x
+        Body:   Do
+                writeln(i);
+                writeln(i);
+                    Do
+                        writeln(i);
+                        writeln(i);
+                            writeln(i);
+                        Do
+                        While ((a==b)==(c==d))
+                        EndDo.
+                        While ((a==b)==(d==d))
+                    EndDo.
+                While (True)
+                EndDo.
+        EndBody.

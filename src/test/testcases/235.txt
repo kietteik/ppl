@@ -1,0 +1,12 @@
+Function: main
+        Parameter: x
+        Body:
+            For (a=5,a<10,a+.1) Do
+                abc(a);
+                For (a=2,a==0,a*1) Do
+                    If ab==cd Then
+                    a=a+1;
+                    EndIf.
+                EndFor.
+            EndFor.
+        EndBody.

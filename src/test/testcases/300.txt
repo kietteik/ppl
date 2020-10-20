@@ -1,0 +1,30 @@
+
+        Var: he = "hello\t\n\b\t\\abce***string{}{}{2,3,4,}}'"string in string'"";
+        Var: b = 5, c = False;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var:a=1;
+        **Declare variable******
+        Function: main
+        **Declare variable******
+        Parameter: x
+        Body:   a="string string";
+                x=n >=.z;
+                x=d[y *.z +. t -.c\ 10];
+                x=(a + -b) * y -z+ (sp *. yz);
+                a=a + -1 + - 5--5;
+        **Declare variable******
+                b=foo();
+                c[1]=foo(foo());
+        EndBody.
+        **Declare variable******
+        Function: main2
+        Parameter: x,a[2],b[2][3]
+        **comment**
+        Body:   a="string string'"'" ***unclosing comment";
+                b=foo();
+                c[1]=foo(foo());
+                **comment insidefuntion**
+                **comment insidefuntion****comment insidefuntion**
+        **comment**
+        EndBody.
+        **comment**

@@ -1,0 +1,9 @@
+Function: abctest
+        Parameter: a[2],b[5][6]
+        Body:
+            Var:b;
+            If n > 10 Then
+                Return 5;
+            EndIf.
+            Var:c=2;
+        EndBody.

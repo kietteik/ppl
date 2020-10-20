@@ -1,0 +1,4 @@
+Function: main
+        Parameter: x
+        Body:   fooo((a+1)+True+abcd);
+        EndBody.
