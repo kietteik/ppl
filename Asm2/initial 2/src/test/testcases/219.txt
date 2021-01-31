@@ -1,0 +1,4 @@
+Function: main
+        Body:Var:a[2]={12,3,4},b=2,c=True;
+        Var:c=4;
+        EndBody.

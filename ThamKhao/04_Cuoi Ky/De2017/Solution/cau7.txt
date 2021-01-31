@@ -1,0 +1,7 @@
+﻿*Polish:
+	+) Từ trái sáng phải:
+		-) Prefix:  +--a**bcdef
+		-) Posfix:	abc*d*-e-f+
+	+) Từ phải sang trái:
+		-) Prefix:	-a-*b*cd+ef
+		-) Posfix:	abcd**ef+--

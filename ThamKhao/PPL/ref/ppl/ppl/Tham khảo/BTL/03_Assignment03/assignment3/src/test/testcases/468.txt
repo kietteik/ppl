@@ -1,0 +1,9 @@
+
+        PROCEDURE main();
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : Integer;
+                main : STRING;
+            BEGIN
+                Break;
+            END
+        

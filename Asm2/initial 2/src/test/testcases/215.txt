@@ -1,0 +1,19 @@
+Function: main
+        Body:
+            Var:var=2;
+            For (i = 0, i < 10, 2) Do
+                While (True) Do
+                    For (i = 0, i < 10, 2) Do
+                        writeln(i);
+                        For (i = 0, i < 10, 2) Do
+                            writeln(i);
+                            For (i = 0, i < 10, 2) Do
+                            writeln(i);
+                            EndFor.
+                            writeln(i);
+                        EndFor.
+                        a=b;
+                    EndFor.
+                EndWhile.
+            EndFor.
+        EndBody.

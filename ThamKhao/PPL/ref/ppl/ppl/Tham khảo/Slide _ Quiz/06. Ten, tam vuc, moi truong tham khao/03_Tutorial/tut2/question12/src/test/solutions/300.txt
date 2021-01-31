@@ -1,0 +1,1 @@
+[Symbol(a,FloatType),Symbol(b,IntType),Symbol(z,StringType),Symbol(main,MType([StringType,IntType],VoidType()))]

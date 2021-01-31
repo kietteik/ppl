@@ -1,0 +1,3 @@
+procedure main(); begin end
+        function main1():INTTYPE; begin end
+        procedure main2(); begin end

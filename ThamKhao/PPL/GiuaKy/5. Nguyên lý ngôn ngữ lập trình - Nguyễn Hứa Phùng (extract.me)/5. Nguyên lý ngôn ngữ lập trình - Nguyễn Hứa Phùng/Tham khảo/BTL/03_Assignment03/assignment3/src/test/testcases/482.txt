@@ -1,0 +1,32 @@
+
+        FUNCTION foo1():integer;
+            VAR a :integer;
+                arr1 : ARRAY [1 .. 5] OF INTEGER;
+            BEGIN
+                IF true THEN return 1;
+                ELSE 
+                    BEGIN
+                        A:=10;
+                        return 2;
+                    END
+            END
+        FUNCTION foo2():integer;
+            VAR a :integer;
+                arr1 : ARRAY [1 .. 5] OF INTEGER;
+            BEGIN
+                IF true THEN return 1;
+                ELSE 
+                    BEGIN
+                        While true do
+                            a := 5;
+                    END
+            END
+        PROCEDURE main();
+            VAR arr1 : ARRAY [1 .. 5] OF INTEGER;
+                b : Integer;
+                main : real;
+            BEGIN
+                b:= foo1();
+                b:= foo2();
+            END
+        

@@ -1,0 +1,9 @@
+
+Var: x[1][1];
+Var: y;
+Function: main
+Parameter: a,b
+Body:
+    y = x[1][1];
+    Return;
+EndBody.

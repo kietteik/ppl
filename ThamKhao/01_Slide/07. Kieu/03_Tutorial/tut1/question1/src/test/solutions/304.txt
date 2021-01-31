@@ -1,0 +1,1 @@
+[Symbol(foo,MType([FloatType,IntType],IntType)),Symbol(main,MType([],VoidType())),Symbol(b,IntType),Symbol(a,FloatType)]

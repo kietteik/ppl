@@ -1,0 +1,11 @@
+Function: test
+        Parameter: n
+        Body:
+            If n > 10 Then
+                Return 5;
+            ElseIf n >5 Then a=a+1; Return a;
+            ElseIf n < 10 Then a=a+1; Return a;
+            Else
+                Return False;
+            EndIf.
+        EndBody.

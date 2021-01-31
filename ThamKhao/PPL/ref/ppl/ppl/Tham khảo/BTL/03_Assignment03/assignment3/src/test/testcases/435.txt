@@ -1,0 +1,9 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            BEGIN
+                IF -b <= 3 THEN RETURN a;
+            END
+        

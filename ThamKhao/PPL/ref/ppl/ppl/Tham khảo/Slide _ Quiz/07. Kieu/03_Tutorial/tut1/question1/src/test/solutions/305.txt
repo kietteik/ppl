@@ -1,0 +1,1 @@
+[Symbol(main,MType([],VoidType())),Symbol(xya,FloatType),Symbol(abc,FloatType)]

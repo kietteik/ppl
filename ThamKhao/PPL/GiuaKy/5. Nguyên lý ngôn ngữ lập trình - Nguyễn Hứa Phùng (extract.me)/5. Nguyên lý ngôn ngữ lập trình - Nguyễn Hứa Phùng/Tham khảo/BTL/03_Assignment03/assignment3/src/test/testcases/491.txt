@@ -1,0 +1,15 @@
+
+        function foo(): Integer; 
+        var c1:integer;
+            c2:real;
+            c3:boolean;
+            c4:string;
+        begin
+            while true do return 5;
+        end
+        var a: Integer;
+        procedure main();
+        begin
+            a := a + foo();
+        end
+        

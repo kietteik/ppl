@@ -1,0 +1,37 @@
+    def _error(self, defaultKind=None):
+        def reFunc(acc,i):
+            kind, obj = self.visit(i,acc)
+            if(kind):
+                raise Redeclared(kind if defaultKind is None else defaultKind ,obj.name)
+            
+            return acc + [obj]
+            
+        return reFunc
+    
+    def visitProgram(self, ast, c):
+        reduce(self._error(), ast.decl, c)
+    
+    def visitVarDecl(self, ast, c):
+        varName = ast.variable.name
+        if(self.lookup(varName, c, lambda x: x.name)):
+            return (Variable(), Symbol(varName,Unknown()))
+    
+        return (None, Symbol(varName,Unknown()))
+    
+    def visitFuncDecl(self, ast, c):
+        funcName = ast.name.name
+        
+        if(self.lookup(funcName, c, lambda x: x.name)):
+            return (Function(), Symbol(funcName,Unknown()))
+        
+        c = c + [Symbol(funcName,Unknown())]
+        
+        # visit param = (ast.param) of function
+        c = reduce(self._error(Parameter()), ast.param, c)
+        
+        # visit vardecl = (ast.body[0]) of function
+        reduce(self._error(), ast.body[0], c)
+        
+        return (None, Symbol(funcName,Unknown()))
+
+  

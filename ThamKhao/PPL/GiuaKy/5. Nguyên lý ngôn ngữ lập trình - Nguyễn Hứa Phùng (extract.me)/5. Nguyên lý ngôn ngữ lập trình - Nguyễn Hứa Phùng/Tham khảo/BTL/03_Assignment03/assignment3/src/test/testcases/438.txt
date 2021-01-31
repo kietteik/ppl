@@ -1,0 +1,13 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER ; b : REAL):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+            BEGIN
+                a := - 23;
+                b := - 2.3;
+                a := - true;
+                RETURN 10;
+            END
+        

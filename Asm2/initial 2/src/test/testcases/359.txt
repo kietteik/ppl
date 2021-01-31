@@ -1,0 +1,20 @@
+Function: main
+        Parameter: x
+        Body:   Do
+                writeln(i);
+                writeln(i);
+                    Do
+                        writeln(i);
+                        writeln(i);
+                        While (True) Do
+                            writeln(i);
+                        EndWhile.
+                    While(True)
+                    EndDo.
+                    Do
+                        writeln(i);
+                    While (a==2+1)
+                    EndDo.
+                While (True)
+                EndDo.
+        EndBody.

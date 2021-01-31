@@ -1,0 +1,11 @@
+
+        PROCEDURE main();
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : Integer;
+                main : STRING;
+            BEGIN
+                WHILE true DO
+                    IF 23 > 5 THEN Break; Else b:= 1;
+                Continue;
+            END
+        

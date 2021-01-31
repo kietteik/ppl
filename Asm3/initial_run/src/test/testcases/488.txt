@@ -1,0 +1,17 @@
+
+            Var: x, y, z[2];
+            Function: main
+            Parameter: a,b,c
+            Body:
+                Var: i, j, k;
+                If (j == 2) Then
+                    Var: f,g,h;
+                Else
+                    Var: n;
+                EndIf.
+            EndBody.
+            Function: main
+            Body:
+                y = 5.0;
+            EndBody.
+                

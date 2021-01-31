@@ -1,0 +1,12 @@
+
+Var: x[2][2];
+Var: y;
+
+Function: main
+Parameter: a[1][1],b
+Body:
+    Var: x[1] = {1};
+    Var: y;
+    y = b;
+    Return {{1,1},{1,1}};
+EndBody.

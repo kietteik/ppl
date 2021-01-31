@@ -1,0 +1,1 @@
+Type Mismatch In Statement: For(Id(y),IntLiteral(1),BinaryOp(+,Id(y),IntLiteral(10)),BinaryOp(+,Id(y),IntLiteral(1)),[],[If(BinaryOp(<,Id(y),IntLiteral(1)),[],[Assign(Id(y),IntLiteral(1))])Else([],[])])

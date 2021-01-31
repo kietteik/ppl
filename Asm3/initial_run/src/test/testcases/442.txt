@@ -1,0 +1,11 @@
+
+                Var: i = 1;
+                Function: main
+                Parameter: x,i
+                Body:   
+                    x = void();
+                EndBody.
+                Function: void
+                Body:   
+                    i = 1;
+                EndBody.

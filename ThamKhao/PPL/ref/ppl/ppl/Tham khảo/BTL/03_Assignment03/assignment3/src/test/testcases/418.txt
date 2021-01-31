@@ -1,0 +1,9 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce(proce : real);
+            BEGIN
+                proce();
+            END
+        

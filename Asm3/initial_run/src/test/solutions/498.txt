@@ -1,0 +1,1 @@
+Type Mismatch In Statement: If(BinaryOp(+,Id(c),IntLiteral(10)),[],[Return(IntLiteral(5))])ElseIf(BinaryOp(>,Id(c),IntLiteral(5)),[],[Assign(Id(a),BinaryOp(+,Id(a),IntLiteral(1))),Return(Id(a))])Else([],[Return(BooleanLiteral(false))])

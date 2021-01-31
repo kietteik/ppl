@@ -1,0 +1,46 @@
+**Declare variable**Var: he = "hello";
+        Var: b = 5, c = False;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var:a=1;
+        **Declare variable**
+        Function: main
+        Parameter: x
+        Body:   Do
+                Break;
+                While (True)
+                EndDo.
+                While ((b>=a)==(b!=c)+d*a*b*c) Do
+                    writeln(i);
+                    If (a==2) Then
+                        Return True;
+                        If n > 10 Then
+                            Return 5;
+                        ElseIf n >5 Then a=a+1; Return a;
+                        ElseIf n < 10 Then a=a+1; Return a;
+                        ElseIf n < 100 Then a=a+1; Return b;
+                        Else
+                            Return False;
+                        EndIf.
+                        Break;
+                    EndIf.
+                    While ((b>=a)==(b!=c)+d*a*b*c) Do
+                        writeln(i);
+                        If n > 10 Then
+                            Return 5;
+                        ElseIf n >5 Then a=a+1; Return a;
+                        ElseIf n < 10 Then a=a+1; Return a;
+                        Else
+                            Return False;
+                        EndIf.
+                    EndWhile.
+                EndWhile.
+        EndBody.
+        **Program over "over" foo dec**
+        Function: foo
+        Parameter: x
+        Body:   Do
+                Break;
+                While (True)
+                EndDo.
+        EndBody.

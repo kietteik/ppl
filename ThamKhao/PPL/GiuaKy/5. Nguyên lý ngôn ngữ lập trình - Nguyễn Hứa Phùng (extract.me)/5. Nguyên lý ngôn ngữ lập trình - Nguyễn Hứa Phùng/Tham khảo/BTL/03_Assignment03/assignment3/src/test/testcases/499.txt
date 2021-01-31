@@ -1,0 +1,13 @@
+
+        function foo2(): Integer; 
+            var c1:integer;
+            begin
+                c1 := 5;
+            end
+        procedure main(); 
+            Var a : integer;
+            begin
+                a := foo1();
+                test();
+            end
+        

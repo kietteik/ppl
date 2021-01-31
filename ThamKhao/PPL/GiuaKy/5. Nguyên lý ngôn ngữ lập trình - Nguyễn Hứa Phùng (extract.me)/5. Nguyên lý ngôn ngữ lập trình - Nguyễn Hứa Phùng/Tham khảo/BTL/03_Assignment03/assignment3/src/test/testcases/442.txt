@@ -1,0 +1,14 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+                b : REAL;
+            BEGIN
+                a := 1 div 2;
+                a := 2 mod 4;
+                a := 56 div 7.8;
+                RETURN 10;
+            END
+        

@@ -1,0 +1,6 @@
+Function: main
+        Parameter: x
+        Body:   a="string string";
+                b=foo();
+                c[1]=foo(foo());
+        EndBody.

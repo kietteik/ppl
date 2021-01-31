@@ -1,0 +1,34 @@
+**Declare variable**Var: he = "hello";
+        Var: b = 5, c = False;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var: qwe[1][2][3]={1,2,3}, a,b,c,d;
+        Var:a=1;
+        **Declare variable**
+        Function: main
+        Parameter: x
+        Body:   Do
+                Break;
+                While (True)
+                EndDo.
+                While ((b>=a)==(b!=c)+d*a*b*c) Do
+                writeln(i);
+                If (a==2) Then
+                Return True;
+                Break;
+                EndIf.
+                While ((b>=a)==(b!=c)+d*a*b*c) Do
+                writeln(i);
+                EndWhile.
+                While ((b>=a)==(b!=c)+d*a*b*c) Do
+                writeln(i);
+                EndWhile.
+                EndWhile.
+        EndBody.
+        **Program over "over" foo dec**
+        Function: foo
+        Parameter: x
+        Body:   Do
+                Break;
+                While (True)
+                EndDo.
+        EndBody.

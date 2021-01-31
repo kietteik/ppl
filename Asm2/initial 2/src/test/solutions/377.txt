@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[VarDecl(Id(x))],([][Dowhile([],[CallStmt(Id(writeln),[Id(i)]),If(BinaryOp(==,Id(a),IntLiteral(2)),[],[Continue()])Else([],[Return(BinaryOp(==,BinaryOp(+,BinaryOp(+,Id(a),Id(b)),Id(c)),IntLiteral(2))),Break()])],BooleanLiteral(true)),Return(BinaryOp(==,BinaryOp(+,BinaryOp(+,Id(a),Id(b)),Id(c)),IntLiteral(2)))]))])

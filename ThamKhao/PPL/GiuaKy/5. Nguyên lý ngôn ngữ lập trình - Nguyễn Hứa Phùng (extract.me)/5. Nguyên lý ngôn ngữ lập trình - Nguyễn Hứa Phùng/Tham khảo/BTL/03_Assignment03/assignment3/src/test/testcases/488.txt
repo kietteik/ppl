@@ -1,0 +1,14 @@
+
+        function foo1(): Integer; 
+            var c1:integer;
+                c2:real;
+                c3:boolean;
+                c4:string;
+            begin
+                if (c1 > 5) then return c1;
+            end
+        procedure main();
+            begin
+                foo1();
+            end
+        

@@ -1,0 +1,16 @@
+Var: uh, d[5];
+                Function: main
+                Parameter: q , x, y, t
+                Body:                                       
+                    y = goo(string_of_float("1.2") +. goo(1.2));
+                    uh = string_of_float(y);
+                    t = goo(1.2);
+                    d[4] = t;
+                EndBody.
+                Function: goo
+                Parameter: y
+                Body: 
+                    Var: x;
+                    d[3] = 1;
+                EndBody.
+                

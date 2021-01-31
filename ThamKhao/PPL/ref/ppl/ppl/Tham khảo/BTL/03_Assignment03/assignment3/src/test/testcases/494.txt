@@ -1,0 +1,17 @@
+
+        procedure test();
+            begin
+                return;
+            end
+        function toilaTham(): Integer; 
+            var c1:integer;
+            begin
+                While false Do return C1;
+            end
+        procedure main(); 
+            Var a : integer;
+            begin
+                a := foo1();
+                test();
+            end
+        

@@ -1,0 +1,10 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce();
+            VAR proce:INTEGER;
+            BEGIN
+                proce();
+            END
+        

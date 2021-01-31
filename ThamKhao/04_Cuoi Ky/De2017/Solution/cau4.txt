@@ -1,0 +1,22 @@
+﻿a)
+* Môi trường tham khảo tĩnh:
+	+ main: a//1 , b//1 , c//1, main, sub1//2
+	+ sub1: a//2, b//1, c//1, sub1//2, sub2//3, sub3//4, main
+	+ sub2: a//3, c//3, f//3, b//1, sub2//3, sub3//4, main, sub1//2
+	+ sub3: a//2, c//1, b//4, sub2//3, sub3//4, main, sub1//2
+b)
+* Các thông số của bảng ghi hoạt động chương trình (Program Activation)
+	+) SCP(Static Chain Pointer): trỏ đến bảng hoạt động của hàm bao quanh nó
+	=> Để truy xuất biến cục bộ
+	+) EP(environment pointer): trỏ đến bảng ghi hoạt động
+	+) IP(instruction pointer):
+* Bảng hoạt động của main:
+	 _______________________
+	|						|
+* Bảng hoạt động của sub1:
+
+* Bảng hoạt động của sub2:
+
+* Bảng hoạt động của sub3:
+
+Giá trị của b: -1

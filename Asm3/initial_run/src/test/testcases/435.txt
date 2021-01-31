@@ -1,0 +1,10 @@
+
+Var: x[2][2];
+Var: y;
+
+Function: main
+Parameter: a[1][1],b[1][1]
+Body:
+    main(x, 1);
+    Return;
+EndBody.

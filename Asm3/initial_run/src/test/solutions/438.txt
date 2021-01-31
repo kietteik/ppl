@@ -1,0 +1,1 @@
+Type Mismatch In Statement: If(CallExpr(Id(main),[IntLiteral(1),IntLiteral(1)]),[],[Return(IntLiteral(1))])Else([],[Return(IntLiteral(0))])

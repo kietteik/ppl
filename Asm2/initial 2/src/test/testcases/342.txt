@@ -1,0 +1,5 @@
+Function: main
+        Parameter: x
+        Body:   While ((b>=a)==(c<=d)) Do
+                EndWhile.
+        EndBody.

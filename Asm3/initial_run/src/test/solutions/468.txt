@@ -1,0 +1,1 @@
+Type Mismatch In Statement: Assign(ArrayCell(Id(x),[IntLiteral(2),CallExpr(Id(main),[ArrayLiteral(IntLiteral(1),IntLiteral(1)),IntLiteral(1)])]),StringLiteral(a))

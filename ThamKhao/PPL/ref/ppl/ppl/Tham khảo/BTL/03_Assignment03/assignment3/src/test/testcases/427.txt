@@ -1,0 +1,16 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            BEGIN
+                RETURN a*2;
+            END
+        PROCEDURE proce2();
+            VAR bien: INTEGER;
+                callexpr: INTEGER;
+            BEGIN
+                callexpr := func(a);
+                RETURN;
+            END
+        

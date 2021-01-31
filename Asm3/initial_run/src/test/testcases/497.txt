@@ -1,0 +1,16 @@
+
+                Var: x, y, z;
+                Function: foo
+                Parameter: a,b,c
+                Body:
+                    a = 1.2;
+                    b = 1;
+                Return a;
+                EndBody.
+                Function: main
+                Parameter: a,b,c
+                Body:
+                    Var: foo11;
+                    a = main(foo(x,y,z),1,1) + 1 ;
+                EndBody.
+                

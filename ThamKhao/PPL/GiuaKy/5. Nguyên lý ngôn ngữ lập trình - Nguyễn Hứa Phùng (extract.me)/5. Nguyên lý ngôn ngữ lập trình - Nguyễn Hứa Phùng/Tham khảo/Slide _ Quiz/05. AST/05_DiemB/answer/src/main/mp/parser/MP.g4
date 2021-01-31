@@ -1,0 +1,36 @@
+grammar MP;
+
+@lexer::header {
+from lexererr import *
+}
+
+options{
+	language=Python3;
+}
+
+program: exp EOF;
+
+exp: term (ADDOP term)*;
+
+term: term MULOP factor | factor;
+
+factor: ID | INTLIT | BOOLIT | LB exp RB;
+
+INTLIT: [0-9]+ ;
+
+BOOLIT: 'True' | 'False' ;
+
+LB: '(' ;
+
+RB: ')' ;
+
+
+ADDOP: '+' | '-'  ;
+
+MULOP: '*' | '/' ;
+
+ID: [a-z]+ ;
+
+WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
+
+ERROR_CHAR: .;

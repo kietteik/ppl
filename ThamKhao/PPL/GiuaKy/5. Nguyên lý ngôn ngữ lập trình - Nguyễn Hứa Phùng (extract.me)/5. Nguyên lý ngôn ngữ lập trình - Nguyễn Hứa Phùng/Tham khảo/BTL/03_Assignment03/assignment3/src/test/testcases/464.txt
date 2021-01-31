@@ -1,0 +1,15 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):STRING;
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : REAL;
+                func : STRING;
+                arr2 : ARRAY [-1 .. 5] OF REAL;
+            BEGIN
+                RETURN func;
+                FOR a := 45 TO a DO
+                    RETURN arr2;//error
+            END
+        

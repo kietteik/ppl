@@ -1,0 +1,39 @@
+
+        FUNCTION foo1():integer;
+            VAR a :integer;
+                arr1 : ARRAY [1 .. 5] OF INTEGER;
+            BEGIN
+                FOR a:= 1 to 10 DO
+                    BEGIN
+                        arr1[3] := 65;
+                        a :=1;
+                        WITH
+                            B: real;
+                        DO
+                            b:= 5.6;
+                    END
+                return 12;
+            END
+        FUNCTION foo2():integer;
+            VAR a :integer;
+                arr1 : ARRAY [1 .. 5] OF INTEGER;
+            BEGIN
+                FOR a:= 1 to 10 DO
+                    BEGIN
+                        arr1[3] := 65;
+                        a :=1;
+                        WITH
+                            b: real;
+                        DO
+                            RETURN 10;
+                    END
+            END
+        PROCEDURE main();
+            VAR arr1 : ARRAY [1 .. 5] OF INTEGER;
+                b : Integer;
+                main : real;
+            BEGIN
+                b:= foo1();
+                b:= foo2();
+            END
+        

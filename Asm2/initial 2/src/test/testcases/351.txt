@@ -1,0 +1,6 @@
+Function: main
+        Parameter: x
+        Body:   Do
+                While (True)
+                EndDo.
+        EndBody.

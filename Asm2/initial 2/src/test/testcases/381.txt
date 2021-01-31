@@ -1,0 +1,3 @@
+**Declare variable**Var: he = "hello";
+        Var: b = 5, c = False;
+        **Program over "over"**

@@ -1,0 +1,14 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+                b : REAL;
+                d : ARRAY [1 .. 5] OF REAL;
+            BEGIN
+                a := c[c[2]];
+                b := b[2];
+                RETURN 10;
+            END
+        

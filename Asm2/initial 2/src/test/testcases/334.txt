@@ -1,0 +1,4 @@
+Function: main
+        Parameter: x
+        Body:   For (a=5,a<10,aa+1) Do abc(a); EndFor.
+        EndBody.

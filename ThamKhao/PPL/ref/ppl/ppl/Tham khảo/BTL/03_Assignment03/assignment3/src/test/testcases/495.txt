@@ -1,0 +1,12 @@
+
+        function lopp(): Integer; 
+            var c1:integer;
+            begin
+            end
+        procedure main(); 
+            Var a : integer;
+            begin
+                a := foo1();
+                test();
+            end
+        

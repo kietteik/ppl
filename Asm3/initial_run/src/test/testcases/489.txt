@@ -1,0 +1,13 @@
+
+                Var: x = 3, y, z[2];
+                Function: main
+                Parameter: a,b,c
+                Body:
+                    Var: y = 2.0;
+                    x = 1.0;
+                EndBody.
+                Function: b
+                    Body:
+                        y = 5.0;
+                EndBody.
+                

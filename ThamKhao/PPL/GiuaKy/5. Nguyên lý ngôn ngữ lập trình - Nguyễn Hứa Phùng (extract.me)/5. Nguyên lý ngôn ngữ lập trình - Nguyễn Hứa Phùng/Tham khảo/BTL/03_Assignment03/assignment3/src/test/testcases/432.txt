@@ -1,0 +1,14 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce2();
+            VAR a: INTEGER;
+            BEGIN
+                WITH
+                    b: INTEGER;
+                DO
+                    c := 5;
+
+            END
+        

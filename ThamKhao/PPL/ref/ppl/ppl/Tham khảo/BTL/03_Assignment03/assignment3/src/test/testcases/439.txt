@@ -1,0 +1,16 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : BOOLEAN):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+                b : REAL;
+            BEGIN
+                a := 1 < 2;
+                a := 2.2 >= 4;
+                a := 56 <> 7.8;
+                a := 23.2 = 5.6;
+                a := true >= 23;
+                RETURN 10;
+            END
+        

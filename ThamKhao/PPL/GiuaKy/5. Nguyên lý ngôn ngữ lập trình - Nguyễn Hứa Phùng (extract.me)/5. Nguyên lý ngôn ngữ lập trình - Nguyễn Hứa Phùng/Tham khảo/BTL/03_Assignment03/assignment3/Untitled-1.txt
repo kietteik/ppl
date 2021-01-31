@@ -1,0 +1,25 @@
+        input = Program(
+            [
+                VarDecl(Id("a"), IntType()),
+                FuncDecl(
+                    Id("proce"),
+                    [
+                        VarDecl(Id("proce1"), FloatType()),
+                    ],
+                    [
+                        VarDecl(Id("a1"), StringType())
+                    ],
+                    [
+                        With(
+                            [
+                                VarDecl(Id("a1"), FloatType()),
+                                VarDecl(Id("Tham"), StringType()),
+                                VarDecl(Id("proce1"), StringType())
+                            ],
+                            [
+                                Continue()
+                            ]
+                        )
+                    ]
+                )
+            ])

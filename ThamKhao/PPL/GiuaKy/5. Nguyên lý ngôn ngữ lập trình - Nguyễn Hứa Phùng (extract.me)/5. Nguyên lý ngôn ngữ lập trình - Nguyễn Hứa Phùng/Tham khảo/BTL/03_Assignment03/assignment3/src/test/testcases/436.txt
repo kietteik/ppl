@@ -1,0 +1,9 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            BEGIN
+                WHILE a <= 3 DO RETURN b + a;
+            END
+        

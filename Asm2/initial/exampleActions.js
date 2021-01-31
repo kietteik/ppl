@@ -1,0 +1,4 @@
+({
+    evaluateLexerPredicate: (lexer, ruleIndex, actionIndex, predicate) => eval(predicate),
+    evaluateParserPredicate: (parser, ruleIndex, actionIndex, predicate) => eval(predicate)
+  })

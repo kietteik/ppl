@@ -1,0 +1,12 @@
+
+                Var: x, y, z;
+                Function: main
+                Body:
+                    goo(z,y);
+                EndBody.
+                Function: goo
+                Parameter: a,b,c
+                Body:
+                    goo(a,b,c);
+                EndBody.
+                

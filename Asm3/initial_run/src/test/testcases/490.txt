@@ -1,0 +1,17 @@
+
+                Var: x, y, z[2];
+                Function: main
+                Parameter: a,b,c
+                Body:
+                    Var: y = 2.0;
+                    x = 3;
+                    Return b +. 1.0;
+                EndBody.
+                Function: boo
+                    Body:
+                        For (x = 1.0, x < 3, 2) Do
+                            y = main(1,2.0,3);
+                            z[2] = {1,2};
+                        EndFor.
+                EndBody.
+                

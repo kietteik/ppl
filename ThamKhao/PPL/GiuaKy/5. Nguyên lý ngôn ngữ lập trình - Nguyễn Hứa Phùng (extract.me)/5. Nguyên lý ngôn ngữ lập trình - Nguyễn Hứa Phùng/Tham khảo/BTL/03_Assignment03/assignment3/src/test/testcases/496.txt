@@ -1,0 +1,16 @@
+
+        function foo2(): Integer; 
+            var c1:integer;
+            begin
+                while true do
+                Begin 
+                    For c1:= 5 to 6 do return 3;
+                end
+            end
+        procedure main(); 
+            Var a : integer;
+            begin
+                a := foo1();
+                test();
+            end
+        

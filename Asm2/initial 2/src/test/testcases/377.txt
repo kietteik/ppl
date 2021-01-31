@@ -1,0 +1,14 @@
+Function: main
+        Parameter: x
+        Body:   Do
+                    writeln(i);
+                    If (a==2) Then
+                        Continue;
+                    Else
+                        Return a+b+c==2;
+                        Break;
+                    EndIf.
+                While (True)
+                EndDo.
+                Return a+b+c==2;
+        EndBody.

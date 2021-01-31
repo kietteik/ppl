@@ -1,0 +1,12 @@
+
+Var: x[1][1], y;
+Function: main
+Body:
+    If x[1][1] == 0 Then
+        Var: a[2][2] = {{1,1},{1,1}};
+        Var: a[1] = {1};
+        Return 1;
+    Else
+        Return 0;
+    EndIf.
+EndBody.

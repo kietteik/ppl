@@ -1,0 +1,14 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+                b : BOOLEAN;
+            BEGIN
+                b := (1 > 2) and then true;
+                b := (4 = 5) or else (4 + 6 > 11);
+                b := 56 or else false;
+                RETURN 10;
+            END
+        

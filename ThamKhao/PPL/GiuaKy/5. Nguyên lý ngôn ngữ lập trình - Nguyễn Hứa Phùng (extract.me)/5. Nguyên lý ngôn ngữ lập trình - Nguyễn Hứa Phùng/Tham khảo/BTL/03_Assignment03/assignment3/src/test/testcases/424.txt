@@ -1,0 +1,13 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION functi():string;
+            VAR callexpr : integer;
+            BEGIN
+                WITH
+                    functi : string;
+                DO
+                    callexpr := functi();
+            END
+        

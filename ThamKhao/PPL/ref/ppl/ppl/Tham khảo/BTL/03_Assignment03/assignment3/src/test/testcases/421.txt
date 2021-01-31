@@ -1,0 +1,10 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func():INTEGER;
+            VAR callexpr : integer;
+            BEGIN
+                callexpr := func1();
+            END
+        

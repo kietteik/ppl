@@ -1,0 +1,15 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : REAL;
+            BEGIN
+                WHILE -b <= 3 DO RETURN a;
+                WHILE b <> a DO b := 5.6;       //ELSE b := 10;
+                WHILE b = a DO b := 5.6;        //ELSE b := 10;
+                WHILE b + a DO b := 5.6;           //ELSE b := 10;
+                RETURN 10;
+            END
+        

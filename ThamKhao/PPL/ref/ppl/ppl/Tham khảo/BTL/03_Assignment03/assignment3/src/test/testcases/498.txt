@@ -1,0 +1,19 @@
+
+        function diem10(): Integer; 
+            var c1:integer;
+            begin
+                IF true THEN
+                    BEGIN
+                        C1 := 45;
+                        while false do c1 :=4;
+                    END
+                ELSE
+                    Return C1;
+            end
+        procedure main(); 
+            Var a : integer;
+            begin
+                a := foo1();
+                test();
+            end
+        

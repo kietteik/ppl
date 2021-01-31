@@ -1,0 +1,17 @@
+
+Var: x[2][2] = {{1,1},{1,1}};
+Var: y;
+
+Function: main
+Parameter: a,b
+Body:
+    x[2][2] = b;
+    Return;
+EndBody.
+
+Function: foo
+Parameter: f,g
+Body:
+    y = foo(1, 1);
+    Return "a";
+EndBody.

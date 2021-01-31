@@ -1,0 +1,13 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce();
+            VAR callexpr : integer;
+            BEGIN
+                WITH
+                    getInt : string;
+                DO
+                    callexpr := getInt();
+            END
+        

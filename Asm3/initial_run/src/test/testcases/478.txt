@@ -1,0 +1,15 @@
+Var: x[2][2], y[2][2] = {{1,2},{1,2}};
+                    Function: main
+                    Parameter: t, q, k
+                    Body:
+                        t = y[1][1] + 1;
+                        q = x[1][1] + 1;
+                        x[k][1] = 1;
+                        goo(x);
+                    EndBody.
+                    Function: goo
+                    Parameter: x[1][2]
+                    Body:
+                        Return 1 + goo(x);
+                    EndBody.
+                

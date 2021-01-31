@@ -1,0 +1,20 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION foo(p1: REAL ; p2:STRING ; p3: ARRAY [-1 .. 5] OF REAL):REAL;
+            BEGIN
+                RETURN 10.0;
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                arr2 : ARRAY [-1 .. 5] OF INTEGER;
+                arr3 : ARRAY [-1 .. 5] OF REAL;
+                b : REAL;
+                d : INTEGER;
+            BEGIN
+                b := foo(b,"123",arr3);
+                b := foo(b,"123",arr2);
+                RETURN 10;
+            END
+        

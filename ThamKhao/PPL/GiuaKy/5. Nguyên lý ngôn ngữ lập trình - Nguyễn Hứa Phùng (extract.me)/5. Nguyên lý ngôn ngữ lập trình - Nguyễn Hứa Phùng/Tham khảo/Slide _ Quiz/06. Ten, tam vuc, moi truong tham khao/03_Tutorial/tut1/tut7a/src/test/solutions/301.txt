@@ -1,0 +1,1 @@
+[VarDecl(Id(x),IntType),VarDecl(Id(x),IntType),VarDecl(Id(z),IntType)] Redeclared Variable: VarDecl(Id(x),IntType),VarDecl(Id(x),IntType)

@@ -1,0 +1,19 @@
+
+        PROCEDURE main();
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : Integer;
+                main : STRING;
+            BEGIN
+                FOR b := 5 to 10 DO
+                    BEGIN
+                        IF 23 > 5 THEN Continue; Else b:= 1;
+                        arr1[1] := 10;
+                        WHILE true DO arr1[2] := 3.4;
+                    END
+                IF true THEN
+                    BEGIN
+                        WHILE false DO arr1[3] := 54.3;
+                        CONTINUE; //error
+                    END
+            END
+        

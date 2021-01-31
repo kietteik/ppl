@@ -1,0 +1,1 @@
+Type Mismatch In Statement: CallStmt(Id(void),[IntLiteral(1),FloatLiteral(1.2),IntLiteral(1)])

@@ -1,0 +1,15 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce(a : INTEGER);
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : REAL;
+                func : STRING;
+                arr2 : ARRAY [-1 .. 5] OF REAL;
+            BEGIN
+                RETURN ;
+                FOR a := 45 TO a DO
+                    RETURN func;//array
+            END
+        

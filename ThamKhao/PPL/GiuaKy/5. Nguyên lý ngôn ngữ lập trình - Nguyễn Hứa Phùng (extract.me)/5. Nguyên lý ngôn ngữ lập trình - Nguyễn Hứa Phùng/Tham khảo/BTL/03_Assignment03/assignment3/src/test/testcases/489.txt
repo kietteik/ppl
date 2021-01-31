@@ -1,0 +1,18 @@
+
+        function isPrime(index:integer):integer;
+        begin
+            for index := 1 to 10 do
+            begin
+                for index := 1 to 10 do
+                    break;
+                while index < 10 do
+                    continue;
+                if index > 1 then break; else continue;
+                return 10;
+            end
+        end
+        procedure main();
+        begin
+            isPrime(5);
+        end
+        

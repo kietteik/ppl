@@ -1,0 +1,13 @@
+
+Var:a;
+Function: main
+Parameter: n,x,y,z
+Body:
+    If n > 10 Then
+        Return 5;
+    ElseIf n > 5 Then x=y+z; Return a;
+    ElseIf n < 10 Then a=a+1; Return True;
+    Else
+        Return 1;
+    EndIf.
+EndBody.

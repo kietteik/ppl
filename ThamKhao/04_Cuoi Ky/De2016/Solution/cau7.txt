@@ -1,0 +1,5 @@
+a)
+	+) f(1): rác (new int), bí danh
+	+) f(2): rác (new int), bí danh	
+	+) f(3): rác (new int), tham chiếu treo
+	+) f(4): rác (new int)		

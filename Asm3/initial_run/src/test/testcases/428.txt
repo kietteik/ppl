@@ -1,0 +1,17 @@
+
+Var: x[2][2];
+Var: y;
+
+Function: main
+Parameter: a,b
+Body:
+    y = 1;
+    Return 1;
+EndBody.
+
+Function: foo
+Parameter: f,g
+Body:
+    y = foo(main(1,1), g);
+    Return 1;
+EndBody.

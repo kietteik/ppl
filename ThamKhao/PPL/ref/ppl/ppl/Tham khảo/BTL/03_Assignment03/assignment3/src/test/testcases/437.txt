@@ -1,0 +1,13 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : BOOLEAN):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+            BEGIN
+                a := not true;
+                a := not false;
+                a := not 2;
+                RETURN 10;
+            END
+        

@@ -1,0 +1,75 @@
+// Câu 1:
+	int mul(Node root) {
+		static int hasZero = 0;
+		if (hasZero == 1){
+			return 0;
+		}
+		if (root.val == 0){
+			hasZero = 1;
+			return 0;
+		}
+		if (root == null) return 1; 
+		else return root.val*mul(root.left)*mul(root.right);
+}
+
+// Câu 2:
+
+void swap(int x, int y) { 
+	int t = x;
+	x=y;
+	y=t; 
+}
+void main() {
+	int a[] = {2, 1, 0}; i = 0;
+	swap(i ,a[i]);
+	cout << i << a[0] << a[1] << a[2];
+}
+
+What are the values printed out when: 
+A. x,y are passed by value
+	Output: 0210
+	Các giá trị không thay đổi vì hàm swap chỉ nhận vào giá trị của x,y rồi xử lý giá trị đó mà không trả về
+
+B. x,y are passed by value-result
+	Output: 2010
+	Giá trị của i và a[0] được truyền vào hàm cho x,y và được truyền ngược trở lại cho biến i,a[0] sau khi hàm kết thúc
+
+C. x,y are passed by reference
+	Output: 2010
+	Hàm swap nhận vào địa chỉ của i và a[0] mọi phép toán sẽ cập nhật giá trị đến đúng địa chỉ của 2 biến này.
+
+D. x,y are passed by name
+	Output: 2210
+	Sử dụng trực tiếp tên của các biến arguments (biến bên ngoài) vào bên trong scope của function ở lúc thực thi function, và cập nhật trực tiếp các tên biến này ở scope bên ngoài (ở đây là biến toàn cục).
+
+// Câu 3:
+
+// Câu 4:
+
+	A.	Vòng lặp vô hạn do sau mỗi vòng lặp:
+	-	expr2 là n được protected vẫn giữ là 5 sau mỗi vòng lặp,
+	-	i bị trừ đi 1 ở dòng "i:= i-1" 
+	-	i được cộng thêm 1 khi kết thúc 1 vòng lặp.
+	=> sau mỗi vòng lặp i vẫn giữ nguyên không thể tiến đến n
+
+	B.	Vòng lặp vô hạn do sau mỗi vòng lặp:
+	-	expr2 là n được cộng thêm 1
+	-	i không đổi do protected
+	-	i cộng thêm 1 sau khi kết lúc 1 vòng lặp
+	=> i không thể tiến đến n do sau mỗi vòng lặp cả 2 được cộng thêm 1
+
+	C.	Vòng lặp vô hạn do sau mỗi vòng lặp:
+	-	expr2 là n được cộng thêm 1
+	-	i bị trừ đi 1 ở dòng "i:= i-1" 
+	-	i được cộng thêm 1 khi kết thúc 1 vòng lặp.
+	=> i không thể tiến đến n do i giảm còn n tăng sau mỗi vòng lặp
+
+	D.	Vòng lặp lặp lại 5 lần do sau mỗi vòng lặp:
+	-	expr2 là n được protected vẫn giữ là 5 sau mỗi vòng lặp,
+	-	i không đổi ở dòng "i:= i-1"  do protected
+	-	i được cộng thêm 1 khi kết thúc 1 vòng lặp.
+	=> Sau 5 lần lặp thì i không thoả <=5 nên vòng lặp dừng.
+
+
+
+

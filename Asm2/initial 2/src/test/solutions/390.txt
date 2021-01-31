@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[VarDecl(Id(x))],([][CallStmt(Id(fooo),[StringLiteral(this is a string param),CallExpr(Id(funct),[StringLiteral(string),IntLiteral(12)])])]))])

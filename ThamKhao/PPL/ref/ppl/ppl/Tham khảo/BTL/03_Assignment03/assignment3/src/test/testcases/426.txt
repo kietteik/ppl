@@ -1,0 +1,14 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce1(func: INTEGER ; a : INTEGER);
+            BEGIN
+            END
+        PROCEDURE proce2();
+            VAR a: INTEGER;
+                b: INTEGER;
+            BEGIN
+                proce1(foo(b),a); //line 6
+            END
+        

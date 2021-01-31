@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(test)[VarDecl(Id(n))],([][If(BinaryOp(>,Id(n),IntLiteral(10)),[],[Return(IntLiteral(5))])ElseIf(BinaryOp(>,Id(n),IntLiteral(5)),[],[Assign(Id(a),BinaryOp(+,Id(a),IntLiteral(1))),Return(Id(a))])ElseIf(BinaryOp(<,Id(n),IntLiteral(10)),[],[Assign(Id(a),BinaryOp(+,Id(a),IntLiteral(1))),Return(Id(a))])Else([],[Return(BooleanLiteral(false))])]))])

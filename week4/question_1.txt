@@ -1,0 +1,37 @@
+Câu 1
+a>
+
+L(O) = [o]
+L(A) = [A] + merge(L(O),[o]) = [A, o]
+L(B) = [B, o]
+L(C) = [C, o]
+
+L(D) 	= [D] = merge(L(A),L(B),[A,B])	
+	= [D] + merge([A, o], [B, o], [A, B])
+	= [D] + [A, B, o]
+	= [D, A, B, o]
+
+L(E)	= [E] + merge(L(C), L(A), [C, A])
+	= [E] + merge([C, o], [A, o], [C, A])
+	= [E] + merge([C, A, o])
+	= [E, C, A, o]
+
+L(F(D, B, E))	
+	= [F] + merge(L(D), L(B), L(E), [D, B, E])
+	= [F] + merge([D, A, B, o], [B, o], [E, C, A, o], [D, B, E])
+	= [F, D] + merge([A, B, o], [B, o], [E, C, A, o], [B, E])
+	
+	==> Error
+	==> Đổi D(A, B) thành D(B, A)
+	==> L(D) = [D, B, A, o]
+
+L(F(D, B, E))	
+	= [F] + merge(L(D), L(B), L(E), [D, B, E])
+	= [F] + merge([D, B, A, o], [B, o], [E, C, A, o], [D, B, E])
+	= [F, D] + merge([B, A, o], [B, o], [E, C, A, o], [B, E])
+	= [F, D, B] + merge([A, o], [o], [E, C, A, o], [E])
+	= [F, D, B, E] + merge([A, o], [o], [C, A, o])
+	= [F, D, B, E, C] + merge([A, o], [o], [A, o)
+	= [F, D, B, E, C, A, o]
+
+b> ==> Chọn Class C

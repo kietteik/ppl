@@ -1,0 +1,19 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE foo(p1: INTEGER ; p2:STRING ; p3: REAL);
+            BEGIN
+                RETURN ;
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+                b : REAL;
+                d : INTEGER;
+            BEGIN
+                foo(d,"123",d);
+                foo(d,"123",b);
+                foo(b,"123",b);
+                RETURN 10;
+            END
+        

@@ -1,0 +1,9 @@
+
+Var: x[2][2] = {{1,1},{1,1}};
+Var: y;
+Function: main
+Parameter: a[2][2],b
+Body:
+    main({{1,1},{1,1}}, y);
+    main(x, y);
+EndBody.

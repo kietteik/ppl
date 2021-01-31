@@ -1,0 +1,11 @@
+
+        FUNCTION main():INTEGER;
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : Integer;
+                main : STRING;
+            BEGIN
+                RETURN 2;
+                FOR b := 45 TO a DO
+                    RETURN 3;//array
+            END
+        

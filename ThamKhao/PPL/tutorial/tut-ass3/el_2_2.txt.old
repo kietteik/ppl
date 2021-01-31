@@ -1,0 +1,40 @@
+    def _redeclarVal(self, acc, i):
+        reVar = self.visit(i, acc)
+        if reVar[0] == "error":
+            raise Redeclared(Variable(),reVar[1])
+        return reVar
+    
+    def _redeclarParam(self, acc, i):
+        reParam = self.visit(i, acc)
+        if reParam[0] == "error":
+            raise Redeclared(Parameter(),reParam[1])
+            
+        return reParam
+            
+    def visitProgram(self, ast, c):
+        reduce(self._redeclarVal, ast.decl, c)
+    
+    def visitVarDecl(self, ast, c):
+        varName = ast.variable.name
+        if(self.lookup(varName, c, lambda x: x.name)):
+            #raise Redeclared(Variable(),varName)
+            return ("error", varName)
+    
+        return c + [Symbol(varName,Unknown())]
+    
+    def visitFuncDecl(self, ast, c):
+        funcName = ast.name.name
+        reVal = c + [Symbol(funcName,Unknown())]
+        
+        if(self.lookup(funcName, c, lambda x: x.name)):
+            raise Redeclared(Function(),funcName)
+        
+        # visit param = (ast.param) of function
+        reParam = reduce(self._redeclarParam, ast.param, reVal)
+        
+        # visit vardecl = (ast.body[0]) of function
+        reduce(_redeclarVal, ast.body[0], reParam)
+        
+        return reVal
+
+  

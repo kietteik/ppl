@@ -1,0 +1,21 @@
+
+        FUNCTION foo1():integer;
+            BEGIN
+                WITH 
+                    toi :string;
+                    la : integer;
+                    tham: real;
+                DO
+                    BEGIN
+                        la := 12;
+                        tham := 10.0;
+                    END
+            END
+        PROCEDURE main();
+            VAR arr1 : ARRAY [1 .. 5] OF INTEGER;
+                b : Integer;
+                main : real;
+            BEGIN
+                b:= foo1();
+            END
+        

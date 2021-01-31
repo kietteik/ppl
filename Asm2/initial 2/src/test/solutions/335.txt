@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[VarDecl(Id(x))],([][For(Id(a),IntLiteral(5),BinaryOp(<,Id(a),IntLiteral(10)),BinaryOp(+.,Id(a),IntLiteral(1)),[],[CallStmt(Id(abc),[Id(a)]),For(Id(a),IntLiteral(2),BinaryOp(==,Id(a),IntLiteral(0)),BinaryOp(*,Id(a),IntLiteral(1)),[],[If(BinaryOp(==,Id(ab),Id(cd)),[],[Assign(Id(a),BinaryOp(+,Id(a),IntLiteral(1)))])Else([],[])])])]))])

@@ -1,0 +1,19 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION foo(p1: INTEGER ; p2:STRING ; p3: REAL):REAL;
+            BEGIN
+                RETURN 10.0;
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR c : ARRAY [1 .. 5] OF INTEGER;
+                b : REAL;
+                d : INTEGER;
+            BEGIN
+                b := foo(d,"123",d);
+                b := foo(d,"123",b);
+                b := foo(b,"123",b);
+                RETURN 10;
+            END
+        

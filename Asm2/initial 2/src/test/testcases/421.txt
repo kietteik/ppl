@@ -1,0 +1,6 @@
+Function: main
+        Body:Var:a[2]={12,3,4},b=2,c=True;
+        Var:c=4;
+        a=b+1;b=a==b;r=a+b+c-e-.d;
+        foo(foo((a+b+.12e10))+foo());
+        EndBody.

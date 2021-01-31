@@ -1,0 +1,1 @@
+Type Mismatch In Expression: BinaryOp(+,CallExpr(Id(main),[ArrayLiteral(IntLiteral(1),IntLiteral(1)),IntLiteral(1)]),CallExpr(Id(main),[ArrayLiteral(IntLiteral(2),IntLiteral(2)),IntLiteral(2)]))

@@ -1,0 +1,10 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce2();
+            VAR a: INTEGER;
+            BEGIN
+                a := b;
+            END
+        

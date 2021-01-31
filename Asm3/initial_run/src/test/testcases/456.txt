@@ -1,0 +1,13 @@
+
+Var: i = 1;
+Function: main
+Parameter: x,i
+Body:   
+    x = void();
+    Return;
+EndBody.
+Function: void
+Body:   
+    i = 1;
+    Return;
+EndBody.

@@ -1,0 +1,12 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce2();
+            VAR bien: INTEGER;
+                callexpr: INTEGER;
+                arr : ARRAY [-1 .. 5] OF INTEGER;
+            BEGIN
+                arr[index] := 24;
+            END
+        

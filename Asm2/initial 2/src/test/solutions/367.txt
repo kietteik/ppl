@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[VarDecl(Id(x))],([][Dowhile([],[CallStmt(Id(writeln),[Id(i)]),Continue()],BooleanLiteral(true))]))])

@@ -1,0 +1,15 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : REAL;
+            BEGIN
+                IF -b <= 3 THEN RETURN a;
+                IF b <> a THEN b := 5.6; ELSE b := 10;
+                IF b = a THEN b := 5.6; ELSE b := 10;
+                IF b + a THEN b := 5.6; ELSE b := 10;
+                RETURN 10;
+            END
+        

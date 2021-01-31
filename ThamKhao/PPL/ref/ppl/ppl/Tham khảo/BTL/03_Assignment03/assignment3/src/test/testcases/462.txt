@@ -1,0 +1,18 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):REAL;
+            VAR arr1 : ARRAY [1 .. 5] OF REAL;
+                b : REAL;
+                func : integer;
+            BEGIN
+                FOR a := 45 TO a DO
+                    RETURN a;//integer
+                FOR a := (23) DOWNTO 100 DO
+                    RETURN arr1[3];//real
+                FOR a := 4 to 7 DO
+                    RETURN b;//real
+                RETURN;                          //error
+            END
+        

@@ -1,0 +1,12 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        PROCEDURE proce();
+            BEGIN
+                WITH
+                    proce : string;
+                DO
+                    proce();
+            END
+        

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(abctest)[VarDecl(Id(a),[2]),VarDecl(Id(b),[5,6])],([VarDecl(Id(b)),VarDecl(Id(c),IntLiteral(2))][If(BinaryOp(>,Id(n),IntLiteral(10)),[],[Return(IntLiteral(5))])Else([],[])]))])

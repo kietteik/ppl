@@ -1,0 +1,11 @@
+
+        PROCEDURE main();
+            BEGIN
+            END
+        FUNCTION func(a : INTEGER):INTEGER;
+            BEGIN
+                FOR b := 2 TO 5 DO
+                    CONTINUE;
+                RETURN a*2;
+            END
+        

@@ -1,0 +1,16 @@
+
+Var: i = 1, c, a[1][2];
+Function: void
+Parameter: a,b,c[2]
+Body:   
+    a = a+1;
+    b = b +. 1.2;
+    i = 1;
+    Return;
+EndBody.
+Function: main
+Parameter: x,i
+Body:   
+    void(1, 1.2, 1);
+    Return;
+EndBody.
